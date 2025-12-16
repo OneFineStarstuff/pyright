@@ -13,6 +13,7 @@ def make_api_request(auth: str) -> str:
 
 
 def func1() -> None:
+    """Read authentication data and perform an API request."""
     with open("test") as resp:
         auth = resp.read()
 
